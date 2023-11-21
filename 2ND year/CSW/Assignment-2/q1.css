@@ -1,0 +1,12 @@
+table,th,td{
+  border:2px solid black;
+  width: 120px;
+  height:120px;
+  border-collapse: collapse;
+}
+td{
+  background-color: aqua;
+}
+th{
+  background-color: blueviolet;
+}

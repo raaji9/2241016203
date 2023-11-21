@@ -1,0 +1,7 @@
+.a{
+  color: black;
+  transition: color 0.3s;
+}
+.im:hover + .a{
+color: aqua;
+}

@@ -1,0 +1,44 @@
+body
+            {
+                text-align: left;
+                height: 4000px;
+                background-color:darkgrey;
+                width:max-content;
+            }
+            .d1
+            {
+            display: block;
+            height: 20px;
+            background-color: black; 
+            color: white;
+            padding: 10px 5px;
+            overflow: hidden;
+            text-decoration:none;
+            }
+            h2 {
+                color: red;
+                text-align: left;
+            }
+            .d2 {
+                display: inline;
+                width: 100px;
+                height: 40px;
+                padding: 100px;
+                text-align : center;
+            }
+            .d2 a 
+            {
+                color: white;
+            }
+            .hor
+            {
+                background-color: red;
+                text-align: left;
+                width: 50%;
+                height: 5%;
+
+            }
+            .image
+            {
+                height:200px ;
+            }
