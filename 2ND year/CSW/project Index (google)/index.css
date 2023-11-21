@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(32, 31, 28);
+}
+img{
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#searchbar{
+    border: solid;
+    height: 10px;
+    border-radius: 30px;
+}
+a,p,div{
+    color: white;
+    text-decoration:none
+}
+.bottom{
+    text-align: center;
+}
+#bottom{
+
+}
+#bottom.hover{
+    text-decoration: underline;
+}
