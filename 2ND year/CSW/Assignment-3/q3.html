@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<body>
+    <form>
+        <input id="field1" type="text" value="Field1">
+        <input id="field2" type="text" value="Field2">
+    </form>
+<script>
+    $("#field1").blur(function(){
+        $(this).css({"filter": "blur(1px)"});
+    })
+</script>
+</body>
+</html>

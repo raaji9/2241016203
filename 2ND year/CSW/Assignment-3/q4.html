@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+        .d{
+            height: 100px;
+            width: 500px;
+            background-color: grey;
+            border: solid;
+            font-size: x-large;
+            position: absolute;
+            margin-left: 300px;
+            margin-top: 100px;
+            text-align: center;
+
+        }
+        button.b{
+            margin-top: 50px;
+            margin-left: 460px;
+        }
+        button.a{
+            position: inherit;
+            margin-left: 300px;
+            margin-top: 100px;
+        }
+    </style>
+<body>
+    <div class="d" hidden>
+        alert
+        <button class="b">
+            ok
+        </button>
+    </div>
+    <button class="a">
+        click me!
+    </button>
+    <script>
+        $(".a").click(function(){
+            $(".d").show();
+        })
+        $(".b").click(function(){
+            $(".d").hide();
+        })
+    </script>
+</body>
+</html>
