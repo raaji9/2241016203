@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 <body>
     <h1 hidden>sample text</h1>
     <button class="a">SlideDown</button><br>
@@ -14,39 +15,39 @@
     <button class="i">attr</button><br>
     <button class="j">html</button><br>
     <button class="reset">reset</button>
-<script>
-    $(".a").click(function(){
-        $("h1").slideDown(1000);
-    })
-    $(".b").click(function(){
-        $("h1").animate({});
-    })
-    $(".c").click(function(){
-        $(this).fadeIn();
-    })
-    $(".d").click(function(){
-        $(this).hide();
-    })
-    $(".e").click(function(){
-        $(".d").show();
-    })
-    $(".f").click(function(){
-        $("h1").mouseenter();
-    })
-    $(".g").click(function(){
-        $("h1").dblclick();
-    })
-    $(".h").click(function(){
-        $("h1").mouseleave();
-    })
-    $(".i").click(function(){
-        $("h1").attr();
-    })
-    $(".j").click(function(){
-        $("h1").html();
-    })
-    $(".reset").click(function(){
-        $("h1").removeAttr();
-    })
-</script>
+    <script>
+        $(".a").click(function () {
+            $("h1").slideDown(1000);
+        })
+        $(".b").click(function () {
+            $("h1").animate();
+        })
+        $(".c").click(function () {
+            $(this).fadeIn();
+        })
+        $(".d").click(function () {
+            $(this).hide();
+        })
+        $(".e").click(function () {
+            $(".d").show();
+        })
+        $(".f").click(function () {
+            $("h1").mouseenter();
+        })
+        $(".g").click(function () {
+            $("h1").dblclick();
+        })
+        $(".h").click(function () {
+            $("h1").mouseleave();
+        })
+        $(".i").click(function () {
+            $("h1").attr();
+        })
+        $(".j").click(function () {
+            $("h1").html();
+        })
+        $(".reset").click(function () {
+            $("h1").removeAttr();
+        })
+    </script>
 </body>
